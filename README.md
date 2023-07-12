@@ -3,7 +3,10 @@
 ## Description
 PsRemoveDuplicateFiles is a PowerShell script designed to help you remove duplicate files from a folder and save disk space. It prompts the user to enter the path to the folder they want to search in, retrieves a list of all files in the specified folder and its subfolders, and identifies files with more than one occurrence. For each file with multiple occurrences, the script displays the file's full path, size in megabytes (MB), and prompts the user to delete it. If the user chooses to delete the file, it is removed using the `Remove-Item` cmdlet with the `-Force` flag, which forces deletion without confirmation. The script skips the deletion if the user chooses not to delete the file or enters an invalid choice.
 
+`Change line 56 - FolderPath `
+
 ![Screenshot](https://github.com/fardinbarashi/PsRemoveDuplicateFiles/blob/main/Screenshot.PNG)
+
 
 
 ## Features
